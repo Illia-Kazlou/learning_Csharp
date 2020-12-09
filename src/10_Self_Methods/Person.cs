@@ -19,16 +19,16 @@ namespace Self
             X = 0;
             Y = 0;
         }
-        public string Run ()
+        public string Run()
         {
             var rnd = new Random();
-            X += rnd.Next(-2,2);
+            X += rnd.Next(-2, 2);
             Y += rnd.Next(-2, 2);
 
             return $"{Name}, ({X},{Y})";
         }
 
-        public string  Run(int x, int y)
+        public string Run(int x, int y)
         {
             X += x;
             Y += y;

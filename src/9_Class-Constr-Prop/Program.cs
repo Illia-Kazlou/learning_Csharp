@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CodeBlog
+namespace _9_Class_Constr_Prop
 {
     class Program
     {
