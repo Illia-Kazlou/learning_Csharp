@@ -5,42 +5,50 @@ namespace _9_Class_Constr_Prop
 {
     public class Person
     {
-        private string _name;
+        //private string _name;
 
         public string SecondName { get; set; }
 
-        public string Name
-        {
-            get
-            {
-                return _name;
-            }
+        public string Name { get; set; }
 
-            set
-            {
-                if (string.IsNullOrWhiteSpace(value))
-                {
-                    throw new ArgumentNullException("Имя не может быть пустым");
-                }
-                _name = value + "+Maick";
-            }
+        public Person(string secondName, string name)
+        {
+            SecondName = secondName;
+            Name = name;
         }
 
-        public string FullName
-        {
-            get
-            {
-                return SecondName + " " + Name;
-            }
-        }
+        //public string Name
+        //{
+        //    get
+        //    {
+        //        return _name;
+        //    }
 
-        public string ShortName
-        {
-            get
-            {
-                return $"{SecondName} {Name.Substring(0, 1)}.";
-            }
-        }
+        //    set
+        //    {
+        //        if (string.IsNullOrWhiteSpace(value))
+        //        {
+        //            throw new ArgumentNullException("Имя не может быть пустым");
+        //        }
+        //        _name = value + "+Maick";
+        //    }
+        //}
+
+        //public string FullName
+        //{
+        //    get
+        //    {
+        //        return SecondName + " " + Name;
+        //    }
+        //}
+
+        //public string ShortName
+        //{
+        //    get
+        //    {
+        //        return $"{SecondName} {Name.Substring(0, 1)}.";
+        //    }
+        //}
 
         ///тоже что и вверху
 

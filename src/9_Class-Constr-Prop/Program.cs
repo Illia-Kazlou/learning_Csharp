@@ -7,16 +7,21 @@ namespace _9_Class_Constr_Prop
     {
         static void Main(string[] args)
         {
-            Person p = new Person();
+            Console.WriteLine("Insert name");
+            var name = Console.ReadLine();
 
-            p.Name = "Nick";
-            p.SecondName = " Bond";
+            Person p = new Person(name, "Bond");
+
+            //Person p = new Person();
+
+            //p.Name = "Nick";
+            //p.SecondName = " Bond";
 
             Console.WriteLine(p.Name+p.SecondName);
 
-            Console.WriteLine(p.FullName);
+            //Console.WriteLine(p.FullName);
 
-            Console.WriteLine(p.ShortName);
+            //Console.WriteLine(p.ShortName);
 
             //p.SetName("Micke");
             //Console.WriteLine(p.GetName());
