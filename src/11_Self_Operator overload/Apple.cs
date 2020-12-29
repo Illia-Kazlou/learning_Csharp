@@ -5,7 +5,7 @@ namespace _11_Self_Operator_overload
 {
     public class Apple : Product // унаследовали от продукта
     {
-        public Apple(string name, int colories, int volume) : base(name, colories, volume)
+        public Apple(string name, int colories, int volume) : base(name, colories, volume) // основывается на конструкторе базового класса
         {
 
         }

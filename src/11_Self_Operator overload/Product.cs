@@ -20,6 +20,7 @@ namespace _11_Self_Operator_overload
 
         public Product(string name, int colories, int volume) // конструктор
         {
+            //проверка входных параметров
             if (string.IsNullOrWhiteSpace (name))
             {
                 throw new ArgumentNullException(nameof(name));
