@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_Self_Array", "5_Self_Arra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10R_Self_methods", "10R_Self_methods\10R_Self_methods.csproj", "{44605961-5B9C-4AA5-858F-C42B286E3FDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11R_Self_Operators overload", "11R_Self_Operators overload\11R_Self_Operators overload.csproj", "{527F2270-18BD-42BD-922B-C67E9AF83F88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11R_Self_Operators overload", "11R_Self_Operators overload\11R_Self_Operators overload.csproj", "{527F2270-18BD-42BD-922B-C67E9AF83F88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Self_Generic", "12_Self_Generic\12_Self_Generic.csproj", "{1D82C227-CD11-4EA5-BE0D-CD8C90D4DD86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{527F2270-18BD-42BD-922B-C67E9AF83F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{527F2270-18BD-42BD-922B-C67E9AF83F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{527F2270-18BD-42BD-922B-C67E9AF83F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D82C227-CD11-4EA5-BE0D-CD8C90D4DD86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D82C227-CD11-4EA5-BE0D-CD8C90D4DD86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D82C227-CD11-4EA5-BE0D-CD8C90D4DD86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D82C227-CD11-4EA5-BE0D-CD8C90D4DD86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
