@@ -25,6 +25,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_Self_Generic", "src\12_S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_Self_Array", "src\5_Self_Array\5_Self_Array.csproj", "{2CFE9359-41F0-46E4-8F2A-C7B70CE8C1E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11R_Self_Operators overload", "11R_Self_Operators overload\11R_Self_Operators overload.csproj", "{527F2270-18BD-42BD-922B-C67E9AF83F88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12,5_Self_IEnumerable", "src\12,5_Self_IEnumerable\12,5_Self_IEnumerable.csproj", "{28E9BF77-CE0E-4BA0-BD7D-CA54484080C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
