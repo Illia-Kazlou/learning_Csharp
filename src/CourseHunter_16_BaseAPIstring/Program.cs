@@ -38,6 +38,26 @@ namespace CourseHunter_16_BaseAPIstring
             string substringFromTo = name.Substring(2, 6);
             Console.WriteLine(substringFrom);
             Console.WriteLine(substringFromTo);
+
+            string empty = new string ("");
+            string whiteSpase = new string (" ");
+            string noEmpty = new string (" b");
+            string nullString = null;
+
+            Console.WriteLine();
+            Console.WriteLine("IsNullOrEmpty");
+            bool isNullOrEmpty = string.IsNullOrEmpty(empty);
+            Console.WriteLine(isNullOrEmpty);
+
+            Console.WriteLine();
+            Console.WriteLine("WhiteSpase");
+            bool whitespase = string.IsNullOrWhiteSpace(whiteSpase);
+            Console.WriteLine(whiteSpase);
+
+            Console.WriteLine();
+            Console.WriteLine("IsNullOrEmpty");
+            bool noempty = string.(empty);
+            Console.WriteLine(isNullOrEmpty);
         }
     }
 }
