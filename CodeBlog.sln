@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_Self_Array", "src\5_Self_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11R_Self_Operators overload", "11R_Self_Operators overload\11R_Self_Operators overload.csproj", "{527F2270-18BD-42BD-922B-C67E9AF83F88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12,5_Self_IEnumerable", "src\12,5_Self_IEnumerable\12,5_Self_IEnumerable.csproj", "{28E9BF77-CE0E-4BA0-BD7D-CA54484080C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12,5_Self_IEnumerable", "src\12,5_Self_IEnumerable\12,5_Self_IEnumerable.csproj", "{28E9BF77-CE0E-4BA0-BD7D-CA54484080C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_16_BaseAPIstring", "src\CourseHunter_16_BaseAPIstring\CourseHunter_16_BaseAPIstring.csproj", "{EA38254A-A72B-413E-AB5E-4BE838368ABB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +81,14 @@ Global
 		{2CFE9359-41F0-46E4-8F2A-C7B70CE8C1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CFE9359-41F0-46E4-8F2A-C7B70CE8C1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CFE9359-41F0-46E4-8F2A-C7B70CE8C1E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E9BF77-CE0E-4BA0-BD7D-CA54484080C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E9BF77-CE0E-4BA0-BD7D-CA54484080C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E9BF77-CE0E-4BA0-BD7D-CA54484080C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E9BF77-CE0E-4BA0-BD7D-CA54484080C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA38254A-A72B-413E-AB5E-4BE838368ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA38254A-A72B-413E-AB5E-4BE838368ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA38254A-A72B-413E-AB5E-4BE838368ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA38254A-A72B-413E-AB5E-4BE838368ABB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
