@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12,5_Self_IEnumerable", "sr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_16_BaseAPIstring", "src\CourseHunter_16_BaseAPIstring\CourseHunter_16_BaseAPIstring.csproj", "{EA38254A-A72B-413E-AB5E-4BE838368ABB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_19_StringBulder", "src\CourseHunter_19_StringBulder\CourseHunter_19_StringBulder.csproj", "{FA35A969-4ED9-473B-A838-0C4E09DCC77B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_19_StringBulder", "src\CourseHunter_19_StringBulder\CourseHunter_19_StringBulder.csproj", "{FA35A969-4ED9-473B-A838-0C4E09DCC77B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_20_StringFormatting", "src\CourseHunter_20_StringFormatting\CourseHunter_20_StringFormatting.csproj", "{8B0250E9-AC08-499F-B03C-33DD81325D41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +97,10 @@ Global
 		{FA35A969-4ED9-473B-A838-0C4E09DCC77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA35A969-4ED9-473B-A838-0C4E09DCC77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA35A969-4ED9-473B-A838-0C4E09DCC77B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B0250E9-AC08-499F-B03C-33DD81325D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0250E9-AC08-499F-B03C-33DD81325D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0250E9-AC08-499F-B03C-33DD81325D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0250E9-AC08-499F-B03C-33DD81325D41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,7 +14,7 @@ namespace CourseHunter_19_StringBulder
             sb.Append("name ");
             sb.Append("is ");
             sb.Append("John ");
-            //Метод добавление с новой строчик
+            //Метод добавление с новой строчки
             sb.AppendLine("!");
 
             Console.WriteLine(sb);
