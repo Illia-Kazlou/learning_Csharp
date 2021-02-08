@@ -39,7 +39,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CobeBlog", "CobeBlog", "{88
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CourseHunter_Udemy", "CourseHunter_Udemy", "{B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_23_Сasting", "src\CourseHunter_23_Parsing\CourseHunter_23_Сasting.csproj", "{6CD03E8D-D4FF-40FD-B140-D9C8F39B5ABF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_23_Сasting", "src\CourseHunter_23_Parsing\CourseHunter_23_Сasting.csproj", "{6CD03E8D-D4FF-40FD-B140-D9C8F39B5ABF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_25_Math", "src\CourseHunter_25_Math\CourseHunter_25_Math.csproj", "{F92DA8C9-4729-4BE2-919B-5E92D6C3E873}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -115,6 +117,10 @@ Global
 		{6CD03E8D-D4FF-40FD-B140-D9C8F39B5ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CD03E8D-D4FF-40FD-B140-D9C8F39B5ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CD03E8D-D4FF-40FD-B140-D9C8F39B5ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F92DA8C9-4729-4BE2-919B-5E92D6C3E873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92DA8C9-4729-4BE2-919B-5E92D6C3E873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92DA8C9-4729-4BE2-919B-5E92D6C3E873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92DA8C9-4729-4BE2-919B-5E92D6C3E873}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -137,6 +143,7 @@ Global
 		{8B0250E9-AC08-499F-B03C-33DD81325D41} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
 		{44DA038E-2D65-4644-AAAF-C59C7D78FE44} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
 		{6CD03E8D-D4FF-40FD-B140-D9C8F39B5ABF} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
+		{F92DA8C9-4729-4BE2-919B-5E92D6C3E873} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9113EE-47FB-4003-98D6-28D3DE7C9817}
