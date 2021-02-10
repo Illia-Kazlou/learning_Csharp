@@ -53,7 +53,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_29_Self_Euclid
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_31_Сonditional_Уxpressions", "src\CourseHunter_31_Сonditional_Уxpressions\CourseHunter_31_Сonditional_Уxpressions.csproj", "{95E79137-B7A4-405A-A167-02AC946B4DD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_32_Self_MaxValue", "src\CourseHunter_32_Self_MaxValue\CourseHunter_32_Self_MaxValue.csproj", "{C6DD8285-8521-4F48-8EDD-20379653EE65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_32_Self_MaxValue", "src\CourseHunter_32_Self_MaxValue\CourseHunter_32_Self_MaxValue.csproj", "{C6DD8285-8521-4F48-8EDD-20379653EE65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_33_ForForeach_Easy", "src\CourseHunter_32_ForForeach\CourseHunter_33_ForForeach_Easy.csproj", "{9EF82206-BCD6-484E-A762-3EC7723A3F15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,6 +159,10 @@ Global
 		{C6DD8285-8521-4F48-8EDD-20379653EE65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6DD8285-8521-4F48-8EDD-20379653EE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6DD8285-8521-4F48-8EDD-20379653EE65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF82206-BCD6-484E-A762-3EC7723A3F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF82206-BCD6-484E-A762-3EC7723A3F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF82206-BCD6-484E-A762-3EC7723A3F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF82206-BCD6-484E-A762-3EC7723A3F15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -186,6 +192,7 @@ Global
 		{F11C7CA0-D14F-491D-B2A7-D4CC23B02E53} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
 		{95E79137-B7A4-405A-A167-02AC946B4DD7} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
 		{C6DD8285-8521-4F48-8EDD-20379653EE65} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
+		{9EF82206-BCD6-484E-A762-3EC7723A3F15} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9113EE-47FB-4003-98D6-28D3DE7C9817}
