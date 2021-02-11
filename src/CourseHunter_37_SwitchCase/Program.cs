@@ -8,7 +8,7 @@ namespace CourseHunter_37_SwitchCase
         {
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.SetWindowSize(Console.WindowWidth, 40);
+            Console.SetWindowSize(Console.WindowWidth, 150);
             Console.SetWindowSize(Console.WindowHeight, 60);
 
             int month = int.Parse(Console.ReadLine());
