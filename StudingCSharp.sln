@@ -65,6 +65,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_36_BreakContin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_37_SwitchCase", "src\CourseHunter_37_SwitchCase\CourseHunter_37_SwitchCase.csproj", "{C4CE06D1-ED16-4F62-845B-43EB94AA2CAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_38_DebagMettigMethod", "src\CourseHunter_38_DebagMettigMethod\CourseHunter_38_DebagMettigMethod.csproj", "{1524BA7C-A88C-47DC-946B-4E43FD77EDE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -187,6 +189,10 @@ Global
 		{C4CE06D1-ED16-4F62-845B-43EB94AA2CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4CE06D1-ED16-4F62-845B-43EB94AA2CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4CE06D1-ED16-4F62-845B-43EB94AA2CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1524BA7C-A88C-47DC-946B-4E43FD77EDE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1524BA7C-A88C-47DC-946B-4E43FD77EDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1524BA7C-A88C-47DC-946B-4E43FD77EDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1524BA7C-A88C-47DC-946B-4E43FD77EDE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -221,6 +227,7 @@ Global
 		{F8ACF6EB-D7E8-4CF9-9754-433892BA2BC5} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
 		{F231C2D8-5435-4CD7-9A04-C94041C40B65} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
 		{C4CE06D1-ED16-4F62-845B-43EB94AA2CAA} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
+		{1524BA7C-A88C-47DC-946B-4E43FD77EDE2} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9113EE-47FB-4003-98D6-28D3DE7C9817}
