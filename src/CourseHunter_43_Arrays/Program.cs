@@ -46,7 +46,7 @@ namespace CourseHunter_43_ArraysUnderHhood
             }
             Console.WriteLine("\n");
 
-            Array.Clear(arrayCopy, 3, anotherCopy.Length); //метод очистки массива, не создается новый массив а модифицируентся sourece
+            Array.Clear(arrayCopy, 0, anotherCopy.Length); //метод очистки массива, не создается новый массив а модифицируентся sourece
             foreach (var item in arrayCopy)
             {
                 Console.Write(item + "+");
