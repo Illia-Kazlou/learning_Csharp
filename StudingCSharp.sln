@@ -73,9 +73,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_42_Self_Passwo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_43_ArraysUnderHhood", "src\CourseHunter_43_Arrays\CourseHunter_43_ArraysUnderHhood.csproj", "{50C5922F-B091-4A40-95A7-41F85C37B043}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_44_CollectionList", "src\CourseHunter_38_DebagMettigMethodCourseHunter_44_CollectionList\CourseHunter_44_CollectionList.csproj", "{892315E1-A853-4986-8F98-E6F4B6340E88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_44_CollectionList", "src\CourseHunter_38_DebagMettigMethodCourseHunter_44_CollectionList\CourseHunter_44_CollectionList.csproj", "{892315E1-A853-4986-8F98-E6F4B6340E88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_45_Dictionary", "src\CourseHunter_45_Dictionary\CourseHunter_45_Dictionary.csproj", "{5EB7DF9B-3369-4C51-A79F-9A8A297E4B1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_45_Dictionary", "src\CourseHunter_45_Dictionary\CourseHunter_45_Dictionary.csproj", "{5EB7DF9B-3369-4C51-A79F-9A8A297E4B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_46_StackAndQueue", "src\CourseHunter_46_DictionaryAndQueue\CourseHunter_46_StackAndQueue.csproj", "{2BFD796D-2E00-4157-BEEA-B968177407F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -223,6 +225,10 @@ Global
 		{5EB7DF9B-3369-4C51-A79F-9A8A297E4B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EB7DF9B-3369-4C51-A79F-9A8A297E4B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EB7DF9B-3369-4C51-A79F-9A8A297E4B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BFD796D-2E00-4157-BEEA-B968177407F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFD796D-2E00-4157-BEEA-B968177407F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFD796D-2E00-4157-BEEA-B968177407F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFD796D-2E00-4157-BEEA-B968177407F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -263,6 +269,7 @@ Global
 		{50C5922F-B091-4A40-95A7-41F85C37B043} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
 		{892315E1-A853-4986-8F98-E6F4B6340E88} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
 		{5EB7DF9B-3369-4C51-A79F-9A8A297E4B1B} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
+		{2BFD796D-2E00-4157-BEEA-B968177407F9} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9113EE-47FB-4003-98D6-28D3DE7C9817}
