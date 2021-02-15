@@ -83,6 +83,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_47_Multidimens
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_50_Self_ParsingRomanNumber", "src\CourseHunter_50_Self_ParsingRomanNumber\CourseHunter_50_Self_ParsingRomanNumber.csproj", "{93248BDE-BB89-476F-8EC1-1BC9BA81E7DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_51_Classes", "src\CourseHunter_51_Classes\CourseHunter_51_Classes.csproj", "{A56A07D7-3FE2-438E-8592-0BC7A124B3C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -241,6 +243,10 @@ Global
 		{93248BDE-BB89-476F-8EC1-1BC9BA81E7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93248BDE-BB89-476F-8EC1-1BC9BA81E7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93248BDE-BB89-476F-8EC1-1BC9BA81E7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56A07D7-3FE2-438E-8592-0BC7A124B3C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56A07D7-3FE2-438E-8592-0BC7A124B3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56A07D7-3FE2-438E-8592-0BC7A124B3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56A07D7-3FE2-438E-8592-0BC7A124B3C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -284,6 +290,7 @@ Global
 		{2BFD796D-2E00-4157-BEEA-B968177407F9} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
 		{B4F63DFB-9DD1-452A-8FEA-DD76FF196E21} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
 		{93248BDE-BB89-476F-8EC1-1BC9BA81E7DF} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
+		{A56A07D7-3FE2-438E-8592-0BC7A124B3C1} = {B9A59A10-DA68-47FC-9BE6-A52532F4BBC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9113EE-47FB-4003-98D6-28D3DE7C9817}
