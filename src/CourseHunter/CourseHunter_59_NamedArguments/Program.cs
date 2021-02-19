@@ -1,21 +1,15 @@
 ﻿using System;
 
-namespace CourseHunter_51_Classes
+namespace CourseHunter_59_NamedArguments
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Character c = new Character();
-            c.Hit(120);
-
-
-            Console.WriteLine($"Hello World! {c.health}");
-
             Calculator calc = new Calculator();
             double triangleArea = calc.CalcTriangleArea(2, 5, 6);
             double triangleArea2 = calc.CalcTriangleArea(2, 6);
-            double triangleArea3 = calc.CalcTriangleArea(2, 6, 45);
+            double triangleArea3 = calc.CalcTriangleArea(sizeSideAB: 2, sizeSideBC: 6, alpfa: 45, IsRadians: true);
 
             Console.WriteLine($"Square 1 -> {triangleArea}");
             Console.WriteLine($"Square 2 -> {triangleArea2}");
