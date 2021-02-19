@@ -15,9 +15,11 @@ namespace CourseHunter_51_Classes
             Calculator calc = new Calculator();
             double triangleArea = calc.CalcTriangleArea(2, 5, 6);
             double triangleArea2 = calc.CalcTriangleArea(2, 6);
+            double triangleArea3 = calc.CalcTriangleArea(2, 6, 45);
 
-            Console.WriteLine($"{triangleArea} 1");
-            Console.WriteLine($"{triangleArea2} 2");
+            Console.WriteLine($"Square 1 -> {triangleArea}");
+            Console.WriteLine($"Square 2 -> {triangleArea2}");
+            Console.WriteLine($"Square 3 -> {triangleArea2}");
 
             Console.ReadLine();
         }

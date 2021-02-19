@@ -23,5 +23,11 @@ namespace CourseHunter_51_Classes
         {
             return ((sizeSemihypotenuse / 2) * sizeH);
         }
+
+        public double CalcTriangleArea(double sizeSideAB, double sizeSideBC, int alpfa)
+        {
+            double rads = alpfa * Math.PI * 180; 
+            return 0.5 * sizeSideAB * sizeSideBC * Math.Sin(rads);
+        }
     }
 }
