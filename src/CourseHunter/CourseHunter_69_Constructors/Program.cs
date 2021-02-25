@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace CourseHunter_69_Constructors
 {
@@ -19,6 +20,18 @@ namespace CourseHunter_69_Constructors
             Character Dwarf = new Character("Dwarf", 21, 120);
             Console.WriteLine($"{Dwarf.Race}, {Dwarf.Armor}, {Dwarf.Health}");
             Console.ReadLine();
+
+            Console.WriteLine(new string ('_', 40));
+
+            Console.WriteLine($@"{Directory.GetCurrentDirectory()}\");
+
+            LocalFileSystemStorage localFileSystemStorage = new LocalFileSystemStorage(1);
+
+            Console.WriteLine(localFileSystemStorage.IsFileExistInStorage("1.txt"));
+
+
+            Console.ReadLine();
+
         }
     }
 }
