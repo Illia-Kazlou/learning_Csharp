@@ -111,6 +111,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_70_Inheritance
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_71_Polymorphism", "src\CourseHunter\CourseHunter_71_Polymorphism\CourseHunter_71_Polymorphism.csproj", "{00988B5C-A316-44A2-90CC-E1A990E65B6F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_73_Interfaces", "src\CourseHunter\CourseHunter_73_Interfaces\CourseHunter_73_Interfaces.csproj", "{D7544D74-CCC6-43F1-8092-4B7DE863FFD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -325,6 +327,10 @@ Global
 		{00988B5C-A316-44A2-90CC-E1A990E65B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00988B5C-A316-44A2-90CC-E1A990E65B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00988B5C-A316-44A2-90CC-E1A990E65B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7544D74-CCC6-43F1-8092-4B7DE863FFD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7544D74-CCC6-43F1-8092-4B7DE863FFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7544D74-CCC6-43F1-8092-4B7DE863FFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7544D74-CCC6-43F1-8092-4B7DE863FFD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -382,6 +388,7 @@ Global
 		{0743F875-C02A-46DB-8751-1561BE0D5C8A} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
 		{4E1CAAB5-8749-4CF3-9A49-C8F624C1ED6D} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
 		{00988B5C-A316-44A2-90CC-E1A990E65B6F} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
+		{D7544D74-CCC6-43F1-8092-4B7DE863FFD2} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9113EE-47FB-4003-98D6-28D3DE7C9817}

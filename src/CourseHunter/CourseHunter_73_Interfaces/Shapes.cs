@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CourseHunter_71_Polymorphism
+namespace CourseHunter_73_Interfaces
 {
     public abstract class Shape
     {
@@ -9,11 +9,11 @@ namespace CourseHunter_71_Polymorphism
             Console.WriteLine("Shape created");
         }
 
-        public abstract void Draw();
+        public abstract void Draw(); // СИГНАТУРА
 
-        public abstract double Area();
+        public abstract double Area(); // СИГНАТУРА
 
-        public abstract double Preimeter();
+        public abstract double Preimeter(); // СИГНАТУРА
     }
 
     public class Recanlge : Shape
@@ -21,7 +21,7 @@ namespace CourseHunter_71_Polymorphism
         private readonly double width;
         private readonly double height;
 
-        public Recanlge(double width, double height) 
+        public Recanlge(double width, double height)
         {
             this.width = width;
             this.height = height;
@@ -36,7 +36,7 @@ namespace CourseHunter_71_Polymorphism
 
         public override void Draw() //ОБЯЗАНЫ ПЕРЕОПРЕДЕЛИТЬ МЕТОДЫ
         {
-            Console.WriteLine("Drawing rectangle"); 
+            Console.WriteLine("Drawing rectangle");
         }
 
         public override double Preimeter() //ОБЯЗАНЫ ПЕРЕОПРЕДЕЛИТЬ МЕТОДЫ
@@ -60,18 +60,18 @@ namespace CourseHunter_71_Polymorphism
             Console.WriteLine("Triengle created");
         }
 
-        public override double Area() //ОБЯЗАНЫ ПЕРЕОПРЕДЕЛИТЬ МЕТОДЫ
+        public override double Area()
         {
             double s = (ab + bc + ca) * 2;
             return Math.Sqrt(s * (s - ab) * (s - bc) * (s - ca));
         }
 
-        public override void Draw() //ОБЯЗАНЫ ПЕРЕОПРЕДЕЛИТЬ МЕТОДЫ
+        public override void Draw()
         {
             Console.WriteLine("Drawing triengle");
         }
 
-        public override double Preimeter() //ОБЯЗАНЫ ПЕРЕОПРЕДЕЛИТЬ МЕТОДЫ
+        public override double Preimeter()
         {
             return ab + bc + ca;
         }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CourseHunter_71_Polymorphism
+namespace CourseHunter_73_Interfaces
 {
     public class Program
     {
