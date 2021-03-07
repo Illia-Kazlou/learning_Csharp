@@ -1,11 +1,14 @@
 ﻿using System;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace CodeBlog_26_Serialize
 {
     [Serializable]
+    [DataContract] 
     public class Student
     {
+
         public Student()
         {
             Name = this.Name;
@@ -21,10 +24,13 @@ namespace CodeBlog_26_Serialize
             Group = this.Group;
         }
 
+        [DataMember]
         public string Name { get; set; }
 
+        [DataMember]
         public int Age { get; set; }
 
+        [DataMember]
         public Group Group { get; set; }
 
         public override string ToString()

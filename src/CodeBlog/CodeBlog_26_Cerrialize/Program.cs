@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Runtime.Serialization.Formatters.Soap;
+using System.Runtime.Serialization.Json;
 using System.Xml.Serialization;
 
 namespace CodeBlog_26_Serialize
@@ -42,7 +43,6 @@ namespace CodeBlog_26_Serialize
                 // Первым параметром наш файловый поток.
                 binaryFormater.Serialize(fileStream, students);
             }
-
             using (var fileStream = new FileStream(fullFileName, FileMode.OpenOrCreate))
             {
                 // Десиарилация.
@@ -51,13 +51,13 @@ namespace CodeBlog_26_Serialize
                 // И возвращается ОБЪЕКТ!
                 var deserializeStudents = binaryFormater.Deserialize(fileStream) as List<Student>; // Приводим к нашему типу.
 
-                if (deserializeStudents != null)
-                {
-                    foreach (var item in deserializeStudents)
-                    {
-                        Console.WriteLine(item);
-                    }
-                }
+                //if (deserializeStudents != null)
+                //{
+                //    foreach (var item in deserializeStudents)
+                //    {
+                //        Console.WriteLine(item);
+                //    }
+                //}
             }
             Console.WriteLine(new string('_', 40));
 
@@ -66,7 +66,6 @@ namespace CodeBlog_26_Serialize
             // И здесь сериалзуются private поля и свойства !!!
             SoapFormatter soapFormatter = new SoapFormatter();
             string fullFileNameSoap = ($"{Environment.CurrentDirectory}\\studentSoap.dat");
-
             using (var fileStream = new FileStream(fullFileNameSoap, FileMode.OpenOrCreate))
             {
                 // Сеарилация.
@@ -92,35 +91,72 @@ namespace CodeBlog_26_Serialize
             }
 
             // XML Serializer
+            // НЕ! сериалзуются private поля и свойства !!!
             // Этот сеарилизатор должен принимать и иметь в реализации ПУСТОЙ КОНСТРУКТОР!!!
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<Student>));
-
             string fullFileNameXML = ($"{Environment.CurrentDirectory}\\student.xml");
-
-            using (var fileStreamXML = new FileStream(fullFileNameXML, FileMode.OpenOrCreate))
+            using (var fileStreamSerializeXML = new FileStream(fullFileNameXML, FileMode.OpenOrCreate))
             {
                 // Сеарилация.
                 // Вызываем экземпляр класса и сериализуем его.
                 // Первым параметром наш файловый поток.
-                xmlSerializer.Serialize(fileStreamXML, students);
+                xmlSerializer.Serialize(fileStreamSerializeXML, students);
             }
-
-            using (var fileStreamXML = new FileStream(fullFileNameXML, FileMode.OpenOrCreate))
+            using (var fileStreamDeserializeXML = new FileStream(fullFileNameXML, FileMode.OpenOrCreate))
             {
                 // Десиарилация.
                 // Cоздаем объект.
                 // Параметром применяется наш файловый поток.
                 // И возвращается ОБЪЕКТ!
-                var deserializeXMLStudents = xmlSerializer.Deserialize(fileStreamXML) as List<Student>; // Приводим к нашему типу.
+                var deserializeXMLStudents = xmlSerializer.Deserialize(fileStreamDeserializeXML) as List<Student>; // Приводим к нашему типу.
 
-                if (deserializeXMLStudents != null)
+                //if (deserializeXMLStudents != null)
+                //{
+                //    foreach (var item in deserializeXMLStudents)
+                //    {
+                //        Console.WriteLine(item);
+                //    }
+                //}
+                Console.WriteLine("XML end");
+            }
+
+            // JSON Serialize!
+            // Подключаем Nuget Packet.
+            // [DataContract] отмечаем класс дл ясерализации.
+            // [DataMember] отмечаем неоходимые поля и свойства.
+            // Сериализует и приватные свойсва и поля!
+
+            DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(List<Student>));
+            string fullFileNameJSON = ($"{Environment.CurrentDirectory}\\student.json");
+
+            using (var fileStreamSerializeJSON = new FileStream(fullFileNameJSON, FileMode.OpenOrCreate))
+            {
+                // Сеарилация.
+                // Вызываем экземпляр класса и сериализуем его.
+                // Первым параметром наш файловый поток.
+                jsonSerializer.WriteObject(fileStreamSerializeJSON, students);
+            }
+            using (var fileStreamDeserializeJSON = new FileStream(fullFileNameJSON, FileMode.OpenOrCreate))
+            {
+                // Десиарилация.
+                // Cоздаем объект.
+                // Параметром применяется наш файловый поток.
+                // И возвращается ОБЪЕКТ!
+                var deserializeJSONStudents = jsonSerializer.ReadObject(fileStreamDeserializeJSON) as List<Student>; // Приводим к нашему типу.
+
+                if (deserializeJSONStudents != null)
                 {
-                    foreach (var item in deserializeXMLStudents)
+                    int count = 0;
+                    foreach (var item in deserializeJSONStudents)
                     {
-                        Console.WriteLine(item);
+
+                        int count1 = ++count;
+                        Console.WriteLine($"{count1} - {item}");
                     }
                 }
+                Console.WriteLine("End");
             }
+
             Console.ReadLine();
         }
     }
