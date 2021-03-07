@@ -6,11 +6,19 @@ namespace CodeBlog_26_Serialize
     [Serializable]
     public class Student
     {
+        public Student()
+        {
+            Name = this.Name;
+            Age = this.Age;
+            Group = this.Group;
+        }
+
         public Student(string name, int age)
         {
             // check input data
             Name = name;
             Age = age;
+            Group = this.Group;
         }
 
         public string Name { get; set; }

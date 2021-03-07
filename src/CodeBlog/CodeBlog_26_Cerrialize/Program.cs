@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Runtime.Serialization.Formatters.Soap;
+using System.Xml.Serialization;
 
 namespace CodeBlog_26_Serialize
 {
@@ -27,8 +29,8 @@ namespace CodeBlog_26_Serialize
             }
 
             // Создаем класс бинарного форматера.
+            // В бинарной сериализации сериализуются и private поля и свойства!!!
             BinaryFormatter binaryFormater = new BinaryFormatter();
-
             string fullFileName = ($"{Environment.CurrentDirectory}\\student.dat");
 
             // Создает файловый поток
@@ -47,7 +49,6 @@ namespace CodeBlog_26_Serialize
                 // Cоздаем объект.
                 // Параметром применяется наш файловый поток.
                 // И возвращается ОБЪЕКТ!
-
                 var deserializeStudents = binaryFormater.Deserialize(fileStream) as List<Student>; // Приводим к нашему типу.
 
                 if (deserializeStudents != null)
@@ -58,7 +59,68 @@ namespace CodeBlog_26_Serialize
                     }
                 }
             }
+            Console.WriteLine(new string('_', 40));
 
+
+            // SOAP SSerialize
+            // И здесь сериалзуются private поля и свойства !!!
+            SoapFormatter soapFormatter = new SoapFormatter();
+            string fullFileNameSoap = ($"{Environment.CurrentDirectory}\\studentSoap.dat");
+
+            using (var fileStream = new FileStream(fullFileNameSoap, FileMode.OpenOrCreate))
+            {
+                // Сеарилация.
+                // Вызываем экземпляр класса и сериализуем его.
+                // Первым параметром наш файловый поток.
+                soapFormatter.Serialize(fileStream, students);
+            }
+            using (var fileStream = new FileStream(fullFileNameSoap, FileMode.OpenOrCreate))
+            {
+                // Десиарилация.
+                // Cоздаем объект.
+                // Параметром применяется наш файловый поток.
+                // И возвращается ОБЪЕКТ!
+                var deserializeSoapStudents = soapFormatter.Deserialize(fileStream) as List<Student>; // Приводим к нашему типу.
+
+                //if (deserializeSoapStudents != null)
+                //{
+                //    foreach (var item in deserializeSoapStudents)
+                //    {
+                //        Console.WriteLine(item);
+                //    }
+                //}
+            }
+
+            // XML Serializer
+            // Этот сеарилизатор должен принимать и иметь в реализации ПУСТОЙ КОНСТРУКТОР!!!
+            XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<Student>));
+
+            string fullFileNameXML = ($"{Environment.CurrentDirectory}\\student.xml");
+
+            using (var fileStreamXML = new FileStream(fullFileNameXML, FileMode.OpenOrCreate))
+            {
+                // Сеарилация.
+                // Вызываем экземпляр класса и сериализуем его.
+                // Первым параметром наш файловый поток.
+                xmlSerializer.Serialize(fileStreamXML, students);
+            }
+
+            using (var fileStreamXML = new FileStream(fullFileNameXML, FileMode.OpenOrCreate))
+            {
+                // Десиарилация.
+                // Cоздаем объект.
+                // Параметром применяется наш файловый поток.
+                // И возвращается ОБЪЕКТ!
+                var deserializeXMLStudents = xmlSerializer.Deserialize(fileStreamXML) as List<Student>; // Приводим к нашему типу.
+
+                if (deserializeXMLStudents != null)
+                {
+                    foreach (var item in deserializeXMLStudents)
+                    {
+                        Console.WriteLine(item);
+                    }
+                }
+            }
             Console.ReadLine();
         }
     }
