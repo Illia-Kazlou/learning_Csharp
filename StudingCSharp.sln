@@ -121,6 +121,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBlog_25_AttributeAndRef
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBlog_26_Serialize", "src\CodeBlog\CodeBlog_26_Cerrialize\CodeBlog_26_Serialize.csproj", "{E2500CB6-5B06-4D47-92A9-82FBD06DFC87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_77_Enum", "src\CourseHunter\CourseHunter_77_Enumeration\CourseHunter_77_Enum.csproj", "{D3F64F57-0E25-4DFC-BDB0-E429E295FA9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -355,6 +357,10 @@ Global
 		{E2500CB6-5B06-4D47-92A9-82FBD06DFC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2500CB6-5B06-4D47-92A9-82FBD06DFC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2500CB6-5B06-4D47-92A9-82FBD06DFC87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F64F57-0E25-4DFC-BDB0-E429E295FA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F64F57-0E25-4DFC-BDB0-E429E295FA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F64F57-0E25-4DFC-BDB0-E429E295FA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F64F57-0E25-4DFC-BDB0-E429E295FA9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -417,6 +423,7 @@ Global
 		{002531F0-019C-411E-985C-48BD6894C979} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
 		{8270E7A9-FD90-47A5-A108-42B45B082F19} = {D757F136-44FF-42B6-8C26-57B22C9AE764}
 		{E2500CB6-5B06-4D47-92A9-82FBD06DFC87} = {D757F136-44FF-42B6-8C26-57B22C9AE764}
+		{D3F64F57-0E25-4DFC-BDB0-E429E295FA9D} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9113EE-47FB-4003-98D6-28D3DE7C9817}

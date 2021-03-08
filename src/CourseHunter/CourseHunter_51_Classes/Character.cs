@@ -1,53 +1,30 @@
-﻿namespace CourseHunter_51_Classes
+﻿namespace CourseHunter_77_Enumeration
 {
-    class Character
+    public class Character
     {
-        // Access modifier:
+        private readonly int speed = 10;
 
-        // private
-        //public
-        //internal используется только внутри той сборки в которой он объявлен.
-        //protected
+        public int Health { get; set; } = 100;
 
-        //полке класса, по сути переменная
-        public int health = 100;  
+        public string Race { get; set; }
 
-        public int Health
+        public int Armor { get; set; }
+
+        public Character() //- конструктор по умолчанию.
         {
-            get
-            {
-                return health;
-            }
-            private set
-            {
-                health = value;
-            }
+
         }
 
-        // При компиляции свойсва преобразуются в методы GET & SET
-        //public int GetHealth()
-        //{
-        //    return health;
-        //}
-
-        //public void SetHealth(int value)
-        //{
-        //    health = value;
-        //}
-
-
-        // метод созданный вне класса в других языках программирования называется функцией.
-        // в С# только методы.
-        public void Hit(int damage)
+        public Character(string race)
         {
-            if (damage >= health)
-            {
-                health = damage--;
-            }
+            Race = race;
+            Armor = 10;
+        }
 
-            health -= damage;
-
-            //Health -= damage;
+        public Character(string race, int armor)
+        {
+            Race = race;
+            Armor = armor;
         }
     }
 }

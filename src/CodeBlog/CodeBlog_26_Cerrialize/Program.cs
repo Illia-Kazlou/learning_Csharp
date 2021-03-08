@@ -10,7 +10,7 @@ namespace CodeBlog_26_Serialize
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var groups = new List<Group>();
             for (int i = 1; i < 10; i++)
@@ -62,7 +62,7 @@ namespace CodeBlog_26_Serialize
             Console.WriteLine(new string('_', 40));
 
 
-            // SOAP SSerialize
+            // SOAP Serialize
             // И здесь сериалзуются private поля и свойства !!!
             SoapFormatter soapFormatter = new SoapFormatter();
             string fullFileNameSoap = ($"{Environment.CurrentDirectory}\\studentSoap.dat");
@@ -142,7 +142,7 @@ namespace CodeBlog_26_Serialize
                 // Cоздаем объект.
                 // Параметром применяется наш файловый поток.
                 // И возвращается ОБЪЕКТ!
-                var deserializeJSONStudents = jsonSerializer.ReadObject(fileStreamDeserializeJSON) as List<Student>; // Приводим к нашему типу.
+                List<Student> deserializeJSONStudents = jsonSerializer.ReadObject(fileStreamDeserializeJSON) as List<Student>; // Приводим к нашему типу.
 
                 if (deserializeJSONStudents != null)
                 {
