@@ -123,6 +123,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBlog_26_Serialize", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_77_Enum", "src\CourseHunter\CourseHunter_77_Enumeration\CourseHunter_77_Enum.csproj", "{D3F64F57-0E25-4DFC-BDB0-E429E295FA9D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITVDN", "ITVDN", "{390F69F4-19DA-4F60-876F-7878A11A16BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITVDN_Reflections", "src\ITVDN\ITVDN_Reflections\ITVDN_Reflections.csproj", "{74CC2973-AA1E-4635-8266-81550E4B910D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -361,6 +365,10 @@ Global
 		{D3F64F57-0E25-4DFC-BDB0-E429E295FA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3F64F57-0E25-4DFC-BDB0-E429E295FA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3F64F57-0E25-4DFC-BDB0-E429E295FA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74CC2973-AA1E-4635-8266-81550E4B910D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74CC2973-AA1E-4635-8266-81550E4B910D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74CC2973-AA1E-4635-8266-81550E4B910D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74CC2973-AA1E-4635-8266-81550E4B910D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -424,6 +432,7 @@ Global
 		{8270E7A9-FD90-47A5-A108-42B45B082F19} = {D757F136-44FF-42B6-8C26-57B22C9AE764}
 		{E2500CB6-5B06-4D47-92A9-82FBD06DFC87} = {D757F136-44FF-42B6-8C26-57B22C9AE764}
 		{D3F64F57-0E25-4DFC-BDB0-E429E295FA9D} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
+		{74CC2973-AA1E-4635-8266-81550E4B910D} = {390F69F4-19DA-4F60-876F-7878A11A16BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9113EE-47FB-4003-98D6-28D3DE7C9817}
