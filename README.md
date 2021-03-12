@@ -7,7 +7,7 @@ This repository was created to host materials that I learned in .Net development
 5. ["Simple Code"](https://www.youtube.com/channel/UCtLKO1Cb2GVNrbU7Fi0pM0w)
 6. ["Hackd Bytes"](https://www.youtube.com/channel/UCrNcmuy-uMaVBzLDesfzXDg)
 
-And also repo has a 'HotKeyVS2019.docx' file with my collection of hot keys for VS2019.
+And also repo has a `HotKeyVS2019.docx` file with my collection of hot keys for VS2019.
 
 ### End ###
 
