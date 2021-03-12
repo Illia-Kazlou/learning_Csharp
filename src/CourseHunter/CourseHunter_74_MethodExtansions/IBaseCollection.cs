@@ -11,16 +11,6 @@ namespace CourseHunter_74_MethodExtansions
         //void Clear(object obj);
     }
 
-    public static class BaseCollectionExtansion
-    {
-        public static void AddRange (this IBaseCollection baseCollection, IEnumerable<int> objects)
-        {
-            foreach (var item in objects)
-            {
-                baseCollection.Add(item);
-            }
-        }
-    }
 
     public static class BaseCallectionExtansion
     {
