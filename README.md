@@ -3,7 +3,7 @@ This repository was created to host materials that I learned in .Net development
 
 ##### Contain #####
 ```
-1. "Code Blog" [![Alt text]((https://sun9-54.userapi.com/impf/c846522/v846522150/1751c2/Mhv-SJRf7ks.jpg?size=200x0&quality=88&crop=41,55,993,993&sign=f38296f49e3bf45538e0ebd7e479e802&ava=1)
+1. "Code Blog" [![Alt text](https://sun9-54.userapi.com/impf/c846522/v846522150/1751c2/Mhv-SJRf7ks.jpg?size=200x0&quality=88&crop=41,55,993,993&sign=f38296f49e3bf45538e0ebd7e479e802&ava=1)
 
 3. "Course Hunter"
 4. "ITVDN"
