@@ -3,7 +3,7 @@ This repository was created to host materials that I learned in .Net development
 
 ##### Contain #####
 ```
-1. "Code Blog" [![Alt text](//placehold.it/150x100)]((https://www.google.com/url?sa=i&url=https%3A%2F%2Fvk.com%2Fcodeblog&psig=AOvVaw2VwS6iNf3PPY3ICAar9Fxl&ust=1615625257855000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDciZ-vqu8CFQAAAAAdAAAAABAD)
+1. "Code Blog" [![Alt text](//placehold.it/150x100)]((https://sun9-54.userapi.com/impf/c846522/v846522150/1751c2/Mhv-SJRf7ks.jpg?size=200x0&quality=88&crop=41,55,993,993&sign=f38296f49e3bf45538e0ebd7e479e802&ava=1)
 
 3. "Course Hunter"
 4. "ITVDN"
