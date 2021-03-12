@@ -137,6 +137,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_79_Self_StackO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_80_IEnumerable", "src\CourseHunter\CourseHunter_80_IEnumerable\CourseHunter_80_IEnumerable.csproj", "{7A49D286-70B9-4048-8E9C-3786E5D9C500}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HackdBytes", "HackdBytes", "{2345168A-DF86-420F-9653-876216E46ABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassDiagram", "src\HackdBytes\ClassDiagram\ClassDiagram.csproj", "{9ECBE11B-9967-451F-B8B8-302002697297}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -395,6 +399,10 @@ Global
 		{7A49D286-70B9-4048-8E9C-3786E5D9C500}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A49D286-70B9-4048-8E9C-3786E5D9C500}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A49D286-70B9-4048-8E9C-3786E5D9C500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ECBE11B-9967-451F-B8B8-302002697297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ECBE11B-9967-451F-B8B8-302002697297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ECBE11B-9967-451F-B8B8-302002697297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ECBE11B-9967-451F-B8B8-302002697297}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -463,6 +471,7 @@ Global
 		{713AC89C-38A4-4D93-AC2C-7A2964049C97} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
 		{ECAE2099-6FA9-48B2-91EE-FC135B43D483} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
 		{7A49D286-70B9-4048-8E9C-3786E5D9C500} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
+		{9ECBE11B-9967-451F-B8B8-302002697297} = {2345168A-DF86-420F-9653-876216E46ABA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9113EE-47FB-4003-98D6-28D3DE7C9817}
