@@ -143,7 +143,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassDiagram", "src\HackdBy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_81_LazyEvaluationYield", "src\CourseHunter\CourseHunter_81_LazyEvaluation&Yield\CourseHunter_81_LazyEvaluationYield.csproj", "{5C59F0FF-6DC7-47DD-8B99-3CD2003AD882}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_82_Exception", "src\CourseHunter\CourseHunter_82_Exception\CourseHunter_82_Exception.csproj", "{95B0B27F-6661-45DB-BA7D-B2C330B4DBE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_82_Exception", "src\CourseHunter\CourseHunter_82_Exception\CourseHunter_82_Exception.csproj", "{95B0B27F-6661-45DB-BA7D-B2C330B4DBE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Byte++", "Byte++", "{758EDF42-C484-4E0C-88D2-1B2E63285CD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Byte2plus_Events_", "src\Byte++\Byte2plus_Events_\Byte2plus_Events_.csproj", "{93152C77-D372-464E-86FF-23003D9839E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_83_MyselfException", "src\CourseHunter\CourseHunter_83_MyselfException\CourseHunter_83_MyselfException.csproj", "{9DA69968-6FF8-49C1-9177-131B095E4072}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -415,6 +421,14 @@ Global
 		{95B0B27F-6661-45DB-BA7D-B2C330B4DBE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95B0B27F-6661-45DB-BA7D-B2C330B4DBE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95B0B27F-6661-45DB-BA7D-B2C330B4DBE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93152C77-D372-464E-86FF-23003D9839E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93152C77-D372-464E-86FF-23003D9839E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93152C77-D372-464E-86FF-23003D9839E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93152C77-D372-464E-86FF-23003D9839E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA69968-6FF8-49C1-9177-131B095E4072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA69968-6FF8-49C1-9177-131B095E4072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA69968-6FF8-49C1-9177-131B095E4072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA69968-6FF8-49C1-9177-131B095E4072}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -486,6 +500,8 @@ Global
 		{9ECBE11B-9967-451F-B8B8-302002697297} = {2345168A-DF86-420F-9653-876216E46ABA}
 		{5C59F0FF-6DC7-47DD-8B99-3CD2003AD882} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
 		{95B0B27F-6661-45DB-BA7D-B2C330B4DBE4} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
+		{93152C77-D372-464E-86FF-23003D9839E0} = {758EDF42-C484-4E0C-88D2-1B2E63285CD2}
+		{9DA69968-6FF8-49C1-9177-131B095E4072} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9113EE-47FB-4003-98D6-28D3DE7C9817}
