@@ -151,6 +151,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Byte2plus_Events_", "src\By
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_83_MyselfException", "src\CourseHunter\CourseHunter_83_MyselfException\CourseHunter_83_MyselfException.csproj", "{9DA69968-6FF8-49C1-9177-131B095E4072}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_86_Delegate", "src\CourseHunter\CourseHunter_86_Delegate\CourseHunter_86_Delegate.csproj", "{F34BC46C-252B-493B-8CDC-4739D5E2A50A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -429,6 +431,10 @@ Global
 		{9DA69968-6FF8-49C1-9177-131B095E4072}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DA69968-6FF8-49C1-9177-131B095E4072}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DA69968-6FF8-49C1-9177-131B095E4072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F34BC46C-252B-493B-8CDC-4739D5E2A50A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34BC46C-252B-493B-8CDC-4739D5E2A50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34BC46C-252B-493B-8CDC-4739D5E2A50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34BC46C-252B-493B-8CDC-4739D5E2A50A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -502,6 +508,7 @@ Global
 		{95B0B27F-6661-45DB-BA7D-B2C330B4DBE4} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
 		{93152C77-D372-464E-86FF-23003D9839E0} = {758EDF42-C484-4E0C-88D2-1B2E63285CD2}
 		{9DA69968-6FF8-49C1-9177-131B095E4072} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
+		{F34BC46C-252B-493B-8CDC-4739D5E2A50A} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9113EE-47FB-4003-98D6-28D3DE7C9817}
