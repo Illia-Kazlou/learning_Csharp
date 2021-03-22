@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CourseHunter_87_ComplexNumbers
+namespace CourseHunter_87_Self_ComplexNumbers
 {
     public class Complex
     {

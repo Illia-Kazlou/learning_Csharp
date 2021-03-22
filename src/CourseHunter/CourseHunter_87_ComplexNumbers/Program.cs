@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CourseHunter_87_ComplexNumbers
+namespace CourseHunter_87_Self_ComplexNumbers
 {
     class Program
     {
