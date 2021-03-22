@@ -163,7 +163,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_87_Self_Comple
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_88_Self_GuessNumber", "src\CourseHunter\CourseHunter_88_Self_GuessNumber\CourseHunter_88_Self_GuessNumber.csproj", "{59E0860B-064C-4727-A0A8-44675F2C0A0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_94_Start_LINQ", "src\CourseHunter\CourseHunter_94_Start_LINQ\CourseHunter_94_Start_LINQ.csproj", "{515E3379-35B5-4418-BF8F-DBD36E84CB75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_94_Start_LINQ", "src\CourseHunter\CourseHunter_94_Start_LINQ\CourseHunter_94_Start_LINQ.csproj", "{515E3379-35B5-4418-BF8F-DBD36E84CB75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_95_LINQ_ParsingCSV", "src\CourseHunter\CourseHunter_95_LINQ_ParsingCSV\CourseHunter_95_LINQ_ParsingCSV.csproj", "{8B2F50EF-844F-4594-8702-868904925203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -467,6 +469,10 @@ Global
 		{515E3379-35B5-4418-BF8F-DBD36E84CB75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{515E3379-35B5-4418-BF8F-DBD36E84CB75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{515E3379-35B5-4418-BF8F-DBD36E84CB75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B2F50EF-844F-4594-8702-868904925203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2F50EF-844F-4594-8702-868904925203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2F50EF-844F-4594-8702-868904925203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2F50EF-844F-4594-8702-868904925203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -546,6 +552,7 @@ Global
 		{FE8D1957-5EAD-4643-B56D-54B4547C6383} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
 		{59E0860B-064C-4727-A0A8-44675F2C0A0B} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
 		{515E3379-35B5-4418-BF8F-DBD36E84CB75} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
+		{8B2F50EF-844F-4594-8702-868904925203} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9113EE-47FB-4003-98D6-28D3DE7C9817}
