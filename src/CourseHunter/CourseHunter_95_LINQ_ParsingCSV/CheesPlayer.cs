@@ -43,7 +43,7 @@ namespace CourseHunter_95_LINQ_ParsingCSV
         public override string ToString()
         {
             return $"Rank in world {Rank}\t " +
-                    $"Full name {FirstName +" "+ LastName}\t " +
+                    $"Full name {FirstName +" "+ LastName}\t\t " +
                     $"country: {Country}\t " +
                     $"rating: {Rating}\t " +
                     $"B-day: {Birthday}.";
