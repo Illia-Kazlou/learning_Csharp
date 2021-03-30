@@ -169,7 +169,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_95_LINQ_Parsin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_96_Linq_Problem_Yeald", "src\CourseHunter\CourseHunter_96_Linq_Problem_Yeald\CourseHunter_96_Linq_Problem_Yeald.csproj", "{28B4E91E-CD57-4326-814F-76420B0A2E9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHunter_97_AnanimouseMethods_SQL-Like", "src\CourseHunter\CourseHunter_97_AnanimouseMethods_SQL-Like\CourseHunter_97_AnanimouseMethods_SQL-Like.csproj", "{BDE305C4-AB2A-4D35-B294-635DE36E8EB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseHunter_97_AnanimouseMethods_SQL-Like", "src\CourseHunter\CourseHunter_97_AnanimouseMethods_SQL-Like\CourseHunter_97_AnanimouseMethods_SQL-Like.csproj", "{BDE305C4-AB2A-4D35-B294-635DE36E8EB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TmsCourses", "TmsCourses", "{A37DAD79-57BC-4205-AD68-390EF9A7B4AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tms_18_UnixTests", "src\TmsCourses\Tms_18_UnixTests\Tms_18_UnixTests.csproj", "{5C0671AE-0A5F-49FF-8ECE-52E18CBFDD22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "src\TmsCourses\Core\Core.csproj", "{A1EFDA01-260B-49DE-8188-25BDD56545EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Tests", "src\TmsCourses\Core.Tests\Core.Tests.csproj", "{890EBD88-A0FD-4BFE-98EC-D6624221B750}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -485,6 +493,18 @@ Global
 		{BDE305C4-AB2A-4D35-B294-635DE36E8EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDE305C4-AB2A-4D35-B294-635DE36E8EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDE305C4-AB2A-4D35-B294-635DE36E8EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C0671AE-0A5F-49FF-8ECE-52E18CBFDD22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C0671AE-0A5F-49FF-8ECE-52E18CBFDD22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C0671AE-0A5F-49FF-8ECE-52E18CBFDD22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C0671AE-0A5F-49FF-8ECE-52E18CBFDD22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1EFDA01-260B-49DE-8188-25BDD56545EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1EFDA01-260B-49DE-8188-25BDD56545EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1EFDA01-260B-49DE-8188-25BDD56545EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EFDA01-260B-49DE-8188-25BDD56545EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{890EBD88-A0FD-4BFE-98EC-D6624221B750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890EBD88-A0FD-4BFE-98EC-D6624221B750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890EBD88-A0FD-4BFE-98EC-D6624221B750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890EBD88-A0FD-4BFE-98EC-D6624221B750}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -567,6 +587,9 @@ Global
 		{8B2F50EF-844F-4594-8702-868904925203} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
 		{28B4E91E-CD57-4326-814F-76420B0A2E9F} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
 		{BDE305C4-AB2A-4D35-B294-635DE36E8EB9} = {6766D886-DCD7-467B-BA2F-61EA8937F288}
+		{5C0671AE-0A5F-49FF-8ECE-52E18CBFDD22} = {A37DAD79-57BC-4205-AD68-390EF9A7B4AC}
+		{A1EFDA01-260B-49DE-8188-25BDD56545EA} = {A37DAD79-57BC-4205-AD68-390EF9A7B4AC}
+		{890EBD88-A0FD-4BFE-98EC-D6624221B750} = {A37DAD79-57BC-4205-AD68-390EF9A7B4AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9113EE-47FB-4003-98D6-28D3DE7C9817}
