@@ -12,7 +12,7 @@ namespace CourseHunter_96_Linq_Problem_Yeald
 
             var qwery = list.Where(x => x >= 2); //  так как этот запрос построен на foreach  и yeald  он немедленно не выполняется. Он конструируется. 
             // ЕСЛИ В КОНЦЕ СДЕЛАТЬ TOLIST() то запрос будет сразу сделан!!!!!!!!!!!!!!!!
-            // Таким оброзом в Linq операторах можно выделить следующую категороию операторов. ОТЛОЖЕННЫЕ(DEFERD) и ЖАДНЫЕ(GREEDY).
+            // Таким оброзом в Linq операторах можно выделить следующую категороию операторов. ОТЛОЖЕННЫЕ(DEFERRED) и ЖАДНЫЕ(GREEDY).
 
             // ОЛОЖЕННЫЕ не выполняются а конструируются. такие как SELECT, TAKE, SKIP, WHERE and etc.
             // ЖАДНЫЕ - COUNT, AVERAGE, MIN, MAX, SOME, FIRST, LAST, TOLIST, TOARRAY and etc.
