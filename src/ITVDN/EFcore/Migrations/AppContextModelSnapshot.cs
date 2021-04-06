@@ -18,7 +18,7 @@ namespace EFcoreCodeFirst.Migrations
                 .HasAnnotation("ProductVersion", "5.0.4")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("EFcore.Entities.User", b =>
+            modelBuilder.Entity("EFcoreCodeFirst.Entities.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

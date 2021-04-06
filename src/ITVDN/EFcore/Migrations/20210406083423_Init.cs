@@ -4,7 +4,7 @@ namespace EFcoreCodeFirst.Migrations
 {
     public partial class Init : Migration
     {
-        protected override void Up(MigrationBuilder migrationBuilder) // Generation tabeels
+        protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
                 name: "Users",
@@ -21,7 +21,7 @@ namespace EFcoreCodeFirst.Migrations
                 });
         }
 
-        protected override void Down(MigrationBuilder migrationBuilder) // Method dropdawn tabels
+        protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
                 name: "Users");
