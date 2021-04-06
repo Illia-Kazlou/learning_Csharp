@@ -7,7 +7,7 @@ namespace CourseHunter_83_MyselfException
     {
         static void Main(string[] args)
         {
-            Character Elf = new Character("Elf");
+            Character Elf = new Character("Elf", 10);
             Console.WriteLine($"{Elf.Race}, {Elf.Armor}");
 
             Character Human = new Character("Human", 15 );
@@ -18,16 +18,16 @@ namespace CourseHunter_83_MyselfException
             Console.WriteLine($"{Orc.Race}, {Orc.Armor}");
 
             Character Dwarf = new Character("Dwarf", 21, 120);
-            Console.WriteLine($"{Dwarf.Race}, {Dwarf.Armor}, {Dwarf.Health}");
+            Console.WriteLine($"{Dwarf.Race}, {Dwarf.Armor}, ");
             Console.ReadLine();
 
             Console.WriteLine(new string ('_', 40));
 
             Console.WriteLine($@"{Directory.GetCurrentDirectory()}\");
 
-            LocalFileSystemStorage localFileSystemStorage = new LocalFileSystemStorage(1);
+            //LocalFileSystemStorage localFileSystemStorage = new LocalFileSystemStorage(1);
 
-            Console.WriteLine(localFileSystemStorage.IsFileExistInStorage("1.txt"));
+            //Console.WriteLine(localFileSystemStorage.IsFileExistInStorage("1.txt"));
 
 
             Console.ReadLine();

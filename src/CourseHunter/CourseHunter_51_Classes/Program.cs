@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CourseHunter_77_Enumeration;
+using System;
 
 namespace CourseHunter_51_Classes
 {
@@ -7,10 +8,10 @@ namespace CourseHunter_51_Classes
         static void Main(string[] args)
         {
             Character c = new Character();
-            c.Hit(120);
+            //c.Hit(120);
 
 
-            Console.WriteLine($"Hello World! {c.health}");
+            //Console.WriteLine($"Hello World! {c.health}");
 
             Calculator calc = new Calculator();
             double triangleArea = calc.CalcTriangleArea(2, 5, 6);

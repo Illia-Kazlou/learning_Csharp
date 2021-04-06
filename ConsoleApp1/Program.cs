@@ -1,13 +1,15 @@
 ﻿using System;
 
-namespace Byte2plus_Events_
+namespace ConsoleApp1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //void delegate = new MyDelegate();
-
+            for (int i = 0; i < 10; i++)
+            {
+                Console.Write(i);
+            }
 
             Console.ReadLine();
         }
