@@ -20,7 +20,10 @@ namespace AsForMe_DoubleWhereImLinq
             peoples.Add(people3);
             peoples.Add(people4);
 
-            var selected = peoples.Where(p => p.Name == "Nick").Where(p => p.Age == 10).ToList();
+            var selected = peoples.Where(p => p.Name == "Nick")
+                                  .Where(p => p.Age == 10)
+                                  //.Where(p => p.Hight > 160)
+                                  .ToList();
 
             foreach (var item in selected)
             {

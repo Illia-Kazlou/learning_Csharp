@@ -30,14 +30,6 @@ namespace CourseHunter_27_DataTime
             Console.WriteLine($"{startDate} + 6 month {finishDate}");
             Console.WriteLine(new string('-', 30));
 
-
-
-            static IEnumerable<DateTime> AllDatesBetween(DateTime start, DateTime end)
-            {
-                for (var day = start.Date; day <= end; day = day.AddDays(1))
-                    yield return day;
-            }
-
             int count = 1;
 
             //Console.WriteLine($"Start date is --- {startDate.AddMonths(-1)}");
@@ -48,13 +40,28 @@ namespace CourseHunter_27_DataTime
             //    count++;
             //}
 
-            for (var i = startDate.AddMonths(1); i <= finishDate; i = i.AddMonths(1))
-            {
-                Console.WriteLine($"{count} month left --- {i}");
-                count++;
-            }
+            //for (var i = startDate.AddMonths(1); i <= finishDate; i = i.AddMonths(1))
+            //{
+            //    Console.WriteLine($"{count} month left --- {i}");
+            //    count++;
+            //}
 
+            DateTime start = DateTime.Now;
+            DateTime finish = startDate.AddMonths(6);
+
+            int period = PayPeriodByMonth(start, finish);
+
+            for (int i = 1; i <=period; i++)
+            {
+                Console.WriteLine($"{start.AddMonths(i)}");
+            }
+                
             Console.ReadLine();
+        }
+
+        public static int PayPeriodByMonth(DateTime start, DateTime end)
+        {
+            return (end.Year * 12 + end.Month) - (start.Year * 12 + start.Month);
         }
     }
 }
