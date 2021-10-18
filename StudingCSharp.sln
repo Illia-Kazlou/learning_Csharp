@@ -201,9 +201,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBlog_28_GarbageCollecto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseClass", "src\Byte++\BaseClass\BaseClass.csproj", "{23E6FC73-637D-4E35-903E-030CC974826B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refactoring.Guru.Command", "src\RefactoringGuru\Refactoring.Guru.Command\Refactoring.Guru.Command.csproj", "{605C545E-A681-4594-B1F5-47E25CDD9CEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Refactoring.Guru.Command", "src\RefactoringGuru\Refactoring.Guru.Command\Refactoring.Guru.Command.csproj", "{605C545E-A681-4594-B1F5-47E25CDD9CEB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefactoringGuru", "RefactoringGuru", "{154644D5-DD9B-49F0-BD11-ECE7A3876451}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hrist", "Hrist", "{6A886B36-E097-4BA4-8702-8B6A101B0158}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigurationPC", "ConfigurationPC", "{EEA0CEF7-91BF-4D22-BC39-87F2F690BB75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "src\Hrist\ConfigurationPC\WinFormsApp1\WinFormsApp1.csproj", "{DC5BAA5F-A906-4ED8-B3A3-D4F48790C7C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleConfigurationPC", "ConsoleConfigurationPC\ConsoleConfigurationPC.csproj", "{57B810CC-C783-4402-9937-3061772E42FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -571,6 +579,14 @@ Global
 		{605C545E-A681-4594-B1F5-47E25CDD9CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{605C545E-A681-4594-B1F5-47E25CDD9CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{605C545E-A681-4594-B1F5-47E25CDD9CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC5BAA5F-A906-4ED8-B3A3-D4F48790C7C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5BAA5F-A906-4ED8-B3A3-D4F48790C7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC5BAA5F-A906-4ED8-B3A3-D4F48790C7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC5BAA5F-A906-4ED8-B3A3-D4F48790C7C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B810CC-C783-4402-9937-3061772E42FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B810CC-C783-4402-9937-3061772E42FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B810CC-C783-4402-9937-3061772E42FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B810CC-C783-4402-9937-3061772E42FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -666,6 +682,9 @@ Global
 		{FE9E241F-140A-4B73-8E29-7219E2E61D2B} = {D757F136-44FF-42B6-8C26-57B22C9AE764}
 		{23E6FC73-637D-4E35-903E-030CC974826B} = {758EDF42-C484-4E0C-88D2-1B2E63285CD2}
 		{605C545E-A681-4594-B1F5-47E25CDD9CEB} = {154644D5-DD9B-49F0-BD11-ECE7A3876451}
+		{EEA0CEF7-91BF-4D22-BC39-87F2F690BB75} = {6A886B36-E097-4BA4-8702-8B6A101B0158}
+		{DC5BAA5F-A906-4ED8-B3A3-D4F48790C7C0} = {EEA0CEF7-91BF-4D22-BC39-87F2F690BB75}
+		{57B810CC-C783-4402-9937-3061772E42FC} = {EEA0CEF7-91BF-4D22-BC39-87F2F690BB75}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9113EE-47FB-4003-98D6-28D3DE7C9817}

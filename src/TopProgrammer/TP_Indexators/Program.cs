@@ -9,7 +9,7 @@ namespace TP_Indexators
             People people = new People();
 
             people[0] = new Person { Name = "Nick" };
-            people[1] = new Person { Name = "Micke" };
+            //people[1] = new Person { Name = "Micke" };
             people[2] = new Person { Name = "Alex" };
 
             Person newPerson = people[1];
