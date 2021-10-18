@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Refactoring.Guru.Command
+﻿namespace Refactoring.Guru.Command
 {
     class Program
     {
@@ -8,6 +6,7 @@ namespace Refactoring.Guru.Command
         {
             // Клиентский код может параметризовать отправителя любыми
             // командами.
+            // Сначала мы создаем экземпляр отправителя, который связан с командами
             Invoker invoker = new Invoker();
             invoker.SetOnStart(new SimpleCommand("Say Hi!"));
 

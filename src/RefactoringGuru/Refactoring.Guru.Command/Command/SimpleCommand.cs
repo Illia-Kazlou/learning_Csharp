@@ -1,7 +1,6 @@
-﻿using Refactoring.Guru.Command;
-using System;
+﻿using System;
 
-namespace Refactoring.Guru
+namespace Refactoring.Guru.Command
 {
     // Некоторые команды способны выполнять простые операции самостоятельно.
     public class SimpleCommand : ICommand

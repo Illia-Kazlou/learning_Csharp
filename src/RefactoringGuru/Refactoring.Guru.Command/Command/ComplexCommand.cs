@@ -1,7 +1,6 @@
-﻿using Refactoring.Guru.Command;
-using System;
+﻿using System;
 
-namespace Refactoring.Guru
+namespace Refactoring.Guru.Command
 {
     // Но есть и команды, которые делегируют более сложные операции другим
     // объектам, называемым «получателями».
@@ -13,7 +12,10 @@ namespace Refactoring.Guru
         private string _a;
         private string _b;
 
+
         public ComplexCommand(Receiver receiver, string a, string b)
+        // Команда - это поведенчиский патерн, который первращает запросы в объекты,
+        //позволяя их передавать в качестве аргументов
         {
             this._receiver = receiver;
             this._a = a;
