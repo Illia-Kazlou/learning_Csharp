@@ -209,9 +209,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hrist", "Hrist", "{6A886B36
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigurationPC", "ConfigurationPC", "{EEA0CEF7-91BF-4D22-BC39-87F2F690BB75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "src\Hrist\ConfigurationPC\WinFormsApp1\WinFormsApp1.csproj", "{DC5BAA5F-A906-4ED8-B3A3-D4F48790C7C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp1", "src\Hrist\ConfigurationPC\WinFormsApp1\WinFormsApp1.csproj", "{DC5BAA5F-A906-4ED8-B3A3-D4F48790C7C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleConfigurationPC", "ConsoleConfigurationPC\ConsoleConfigurationPC.csproj", "{57B810CC-C783-4402-9937-3061772E42FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleConfigurationPC", "ConsoleConfigurationPC\ConsoleConfigurationPC.csproj", "{57B810CC-C783-4402-9937-3061772E42FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metanit_Polymorthism", "src\Metanit\Metanit_Polymorthism\Metanit_Polymorthism.csproj", "{7D76791C-6A73-47DB-89E1-0EF1033CC58C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBlog_22_IndexerYealdIEnurable", "CodeBlog_22_IndexerYealdIEnurable\CodeBlog_22_IndexerYealdIEnurable.csproj", "{FBA88BCA-A40D-4E0B-99AD-1B0BB2284F7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metanit_IEnumerable", "src\Metanit\Metanit_IEnumerable\Metanit_IEnumerable.csproj", "{B2BEE8E8-8E97-4D18-A05E-EC1FE66B6B00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -587,6 +593,18 @@ Global
 		{57B810CC-C783-4402-9937-3061772E42FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57B810CC-C783-4402-9937-3061772E42FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57B810CC-C783-4402-9937-3061772E42FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D76791C-6A73-47DB-89E1-0EF1033CC58C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D76791C-6A73-47DB-89E1-0EF1033CC58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D76791C-6A73-47DB-89E1-0EF1033CC58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D76791C-6A73-47DB-89E1-0EF1033CC58C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA88BCA-A40D-4E0B-99AD-1B0BB2284F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA88BCA-A40D-4E0B-99AD-1B0BB2284F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA88BCA-A40D-4E0B-99AD-1B0BB2284F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA88BCA-A40D-4E0B-99AD-1B0BB2284F7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BEE8E8-8E97-4D18-A05E-EC1FE66B6B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BEE8E8-8E97-4D18-A05E-EC1FE66B6B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BEE8E8-8E97-4D18-A05E-EC1FE66B6B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BEE8E8-8E97-4D18-A05E-EC1FE66B6B00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -685,6 +703,9 @@ Global
 		{EEA0CEF7-91BF-4D22-BC39-87F2F690BB75} = {6A886B36-E097-4BA4-8702-8B6A101B0158}
 		{DC5BAA5F-A906-4ED8-B3A3-D4F48790C7C0} = {EEA0CEF7-91BF-4D22-BC39-87F2F690BB75}
 		{57B810CC-C783-4402-9937-3061772E42FC} = {EEA0CEF7-91BF-4D22-BC39-87F2F690BB75}
+		{7D76791C-6A73-47DB-89E1-0EF1033CC58C} = {7C9F11AC-428F-4727-83AE-7A57B7AAD0DF}
+		{FBA88BCA-A40D-4E0B-99AD-1B0BB2284F7C} = {D757F136-44FF-42B6-8C26-57B22C9AE764}
+		{B2BEE8E8-8E97-4D18-A05E-EC1FE66B6B00} = {7C9F11AC-428F-4727-83AE-7A57B7AAD0DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9113EE-47FB-4003-98D6-28D3DE7C9817}
