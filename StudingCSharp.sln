@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeBlog", "CodeBlog", "{D757F136-44FF-42B6-8C26-57B22C9AE764}"
 EndProject
@@ -221,7 +221,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metanit_IEnumerable", "src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleConfigurationPC", "src\ConsoleConfigurationPC\ConsoleConfigurationPC.csproj", "{646AC37B-2260-4618-BF62-A66A29FB5D7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySelf_OperatorYield", "src\AsForMe\MySelf_OperatorYield\MySelf_OperatorYield\MySelf_OperatorYield.csproj", "{52D45905-300B-45A5-BED6-E2DF2F84D45F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySelf_OperatorYield", "src\AsForMe\MySelf_OperatorYield\MySelf_OperatorYield\MySelf_OperatorYield.csproj", "{52D45905-300B-45A5-BED6-E2DF2F84D45F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Udemy", "Udemy", "{81EC317C-8094-4FF4-8877-77FA4672E555}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPatterns", "DesignPatterns", "{A89596A6-384C-4746-844C-FC703351CAD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specification_OCPrinciple", "src\Udemy\DesignPatterns\Specification_OCPrinciple\Specification_OCPrinciple.csproj", "{3A3B6929-79B4-4195-B8AB-E44023D8EC74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -617,6 +623,10 @@ Global
 		{52D45905-300B-45A5-BED6-E2DF2F84D45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52D45905-300B-45A5-BED6-E2DF2F84D45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52D45905-300B-45A5-BED6-E2DF2F84D45F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A3B6929-79B4-4195-B8AB-E44023D8EC74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3B6929-79B4-4195-B8AB-E44023D8EC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3B6929-79B4-4195-B8AB-E44023D8EC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3B6929-79B4-4195-B8AB-E44023D8EC74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -719,6 +729,8 @@ Global
 		{FBA88BCA-A40D-4E0B-99AD-1B0BB2284F7C} = {D757F136-44FF-42B6-8C26-57B22C9AE764}
 		{B2BEE8E8-8E97-4D18-A05E-EC1FE66B6B00} = {7C9F11AC-428F-4727-83AE-7A57B7AAD0DF}
 		{52D45905-300B-45A5-BED6-E2DF2F84D45F} = {EA8BB3BB-2126-47D9-A455-5CD6DE180405}
+		{A89596A6-384C-4746-844C-FC703351CAD6} = {81EC317C-8094-4FF4-8877-77FA4672E555}
+		{3A3B6929-79B4-4195-B8AB-E44023D8EC74} = {A89596A6-384C-4746-844C-FC703351CAD6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9113EE-47FB-4003-98D6-28D3DE7C9817}
