@@ -14,7 +14,7 @@ namespace _12_Self_Generic
         public string Name { get; set; }
 
         /// <summary>
-        /// Valumee of product.
+        /// Valume   of product.
         /// </summary>
         public T Volume { get; set; }
         //TODO: Чтобы не создаввать такиеже как ниже.
