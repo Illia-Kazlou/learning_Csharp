@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
+
 namespace MySelf_Generic
 {
-    public class InvestmentViewModel<T> where T : BaseInvestmentFund, new()
+    public class InvestmentViewModel<T>
     {
         public InvestmentViewModel()
         {

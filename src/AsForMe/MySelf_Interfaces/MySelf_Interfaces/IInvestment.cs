@@ -1,0 +1,4 @@
+﻿namespace MySelf_Interfaces
+{
+
+}

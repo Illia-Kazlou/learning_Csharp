@@ -8,5 +8,9 @@
             Currency = "USD";
             AssetClass = assetClass;
         }
+
+        public InvestmentSecurityVM()
+        {
+        }
     }
 }

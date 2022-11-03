@@ -233,9 +233,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Principles", "Principles", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Liskov", "src\Udemy\Principles\Liskov\Liskov.csproj", "{3E573EB1-8E01-462F-A7F4-CB08A36AD89F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySelf_Inherit", "src\AsForMe\MySelf_Inherit\MySelf_Inherit.csproj", "{9D6371DC-1813-475E-8700-38D5E5D974D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySelf_Inherit", "src\AsForMe\MySelf_Inherit\MySelf_Inherit.csproj", "{9D6371DC-1813-475E-8700-38D5E5D974D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySelf_Generic", "src\AsForMe\MySelf_Generic\MySelf_Generic\MySelf_Generic.csproj", "{403AC17C-845E-47DD-884A-DEDE089F62AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySelf_Generic", "src\AsForMe\MySelf_Generic\MySelf_Generic\MySelf_Generic.csproj", "{403AC17C-845E-47DD-884A-DEDE089F62AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySelf_Interfaces", "src\AsForMe\MySelf_Interfaces\MySelf_Interfaces\MySelf_Interfaces.csproj", "{AAAA8BD9-96F1-4E84-AB65-479DC810DA01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -647,6 +649,10 @@ Global
 		{403AC17C-845E-47DD-884A-DEDE089F62AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{403AC17C-845E-47DD-884A-DEDE089F62AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{403AC17C-845E-47DD-884A-DEDE089F62AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAAA8BD9-96F1-4E84-AB65-479DC810DA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAAA8BD9-96F1-4E84-AB65-479DC810DA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAAA8BD9-96F1-4E84-AB65-479DC810DA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAAA8BD9-96F1-4E84-AB65-479DC810DA01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -755,6 +761,7 @@ Global
 		{3E573EB1-8E01-462F-A7F4-CB08A36AD89F} = {395F543A-46E9-44D1-A09B-AB76B52F6BC3}
 		{9D6371DC-1813-475E-8700-38D5E5D974D0} = {EA8BB3BB-2126-47D9-A455-5CD6DE180405}
 		{403AC17C-845E-47DD-884A-DEDE089F62AF} = {EA8BB3BB-2126-47D9-A455-5CD6DE180405}
+		{AAAA8BD9-96F1-4E84-AB65-479DC810DA01} = {EA8BB3BB-2126-47D9-A455-5CD6DE180405}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9113EE-47FB-4003-98D6-28D3DE7C9817}

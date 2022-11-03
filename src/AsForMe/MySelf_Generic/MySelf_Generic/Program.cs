@@ -3,13 +3,9 @@ using System.Collections.Generic;
 
 namespace MySelf_Generic
 {
-    public class Program<T> where T : InvestmentFundVM, new()
+    public class Program
                            
     {
-        public Program()
-        {
-        }
-
         static void Main(string[] args)
         {
             var isUS = true;
@@ -23,15 +19,6 @@ namespace MySelf_Generic
                     new InvestmentSecurityVM( 1, "SecurityName 1", 10, "AssetClass 1"),
                     new InvestmentSecurityVM(2, "SecurityName 2", 12, "AssetClass 2" ),
                     new InvestmentSecurityVM(3, "SecurityName 3", 13, "AssetClass 2" )
-                });
-            }
-            else
-            {
-                invetFunds = new InvestmentViewModel<InvestmentFundVM>(1, new List<InvestmentFundVM>()
-                {
-                    new InvestmentFundVM( 1, "SecurityName 1", 10, true ),
-                    new InvestmentFundVM(2, "SecurityName 2", 12, false ),
-                    new InvestmentFundVM(3, "SecurityName 3", 13, true )
                 });
             }
 

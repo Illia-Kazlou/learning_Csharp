@@ -9,6 +9,10 @@
             Currency = "EUR";
             Feed = feed;
         }
+
+        public InvestmentFundVM()
+        {
+        }
     }
 
 }

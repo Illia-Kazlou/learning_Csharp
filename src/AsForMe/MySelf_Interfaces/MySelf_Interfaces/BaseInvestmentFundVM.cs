@@ -1,8 +1,8 @@
-﻿namespace MySelf_Generic
+﻿namespace MySelf_Interfaces
 {
     public abstract class BaseInvestmentFund
     {
-        protected BaseInvestmentFund(int id, string name, int holdings)
+        public BaseInvestmentFund(int id, string name, int holdings)
         {
             Id = id;
             Name = name;
