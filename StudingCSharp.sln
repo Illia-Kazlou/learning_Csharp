@@ -239,7 +239,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySelf_Generic", "src\AsFor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySelf_Interfaces", "src\AsForMe\MySelf_Interfaces\MySelf_Interfaces\MySelf_Interfaces.csproj", "{AAAA8BD9-96F1-4E84-AB65-479DC810DA01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrinciple", "src\Udemy\Principles\DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{714BBA81-6543-4E07-8817-B866A5EFD1D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversionPrinciple", "src\Udemy\Principles\DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{714BBA81-6543-4E07-8817-B866A5EFD1D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySelf_InterfacesNew", "src\AsForMe\MySelf_Interfaces_New\MySelf_InterfacesNew\MySelf_InterfacesNew.csproj", "{6E0217A3-2590-4A19-A2C9-557915DBCA1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -659,6 +661,10 @@ Global
 		{714BBA81-6543-4E07-8817-B866A5EFD1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{714BBA81-6543-4E07-8817-B866A5EFD1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{714BBA81-6543-4E07-8817-B866A5EFD1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0217A3-2590-4A19-A2C9-557915DBCA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0217A3-2590-4A19-A2C9-557915DBCA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0217A3-2590-4A19-A2C9-557915DBCA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0217A3-2590-4A19-A2C9-557915DBCA1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -769,6 +775,7 @@ Global
 		{403AC17C-845E-47DD-884A-DEDE089F62AF} = {EA8BB3BB-2126-47D9-A455-5CD6DE180405}
 		{AAAA8BD9-96F1-4E84-AB65-479DC810DA01} = {EA8BB3BB-2126-47D9-A455-5CD6DE180405}
 		{714BBA81-6543-4E07-8817-B866A5EFD1D1} = {395F543A-46E9-44D1-A09B-AB76B52F6BC3}
+		{6E0217A3-2590-4A19-A2C9-557915DBCA1F} = {EA8BB3BB-2126-47D9-A455-5CD6DE180405}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9113EE-47FB-4003-98D6-28D3DE7C9817}
